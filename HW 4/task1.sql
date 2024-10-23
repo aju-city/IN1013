@@ -1,0 +1,25 @@
+-- DROP DATABASE IF EXISTS pet_database;
+-- CREATE DATABASE pet_database;
+-- USE pet_database;
+
+-- DROP TABLE IF EXISTS petPet, petEvent;
+
+-- Up to the next CUTOFF POINT should be in task1.sql
+
+??? petPet (
+  petname ???,
+  owner ???,
+  species ???,
+  gender ???,
+  birth ???,
+  death ???
+);
+
+??? petEvent (
+  petname ???,
+  eventdate ???,
+  eventtype ???,
+  remark ???,
+  FOREIGN KEY ???,
+  PRIMARY KEY ???
+);
